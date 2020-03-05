@@ -135,6 +135,7 @@ func getTableElement(orm *mysqldb.MySqlDB, tab string) (el []model.ColumusInfo) 
 		tmp.Name = v.Field
 		tmp.Notes = v.Desc
 		tmp.Type = v.Type
+		tmp.Default = v.Default
 
 		// keys
 		if strings.EqualFold(v.Key, "PRI") { // Set primary key.设置主键

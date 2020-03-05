@@ -42,6 +42,7 @@ type ColumusInfo struct {
 	Index          []KList      // index list.index列表
 	IsNull         bool         // null if db is set null
 	ForeignKeyList []ForeignKey // Foreign key list . 表的外键信息
+	Default        string       // Default value of columu
 }
 
 // ForeignKey Foreign key of db info . 表的外键信息

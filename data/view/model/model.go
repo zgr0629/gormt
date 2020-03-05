@@ -99,7 +99,6 @@ func (m *_Model) genTableElement(cols []ColumusInfo) (el []genstruct.GenElement)
 				}
 			}
 		}
-
 		if len(v.Name) > 0 {
 			// not simple output
 			if !config.GetSimple() {
@@ -107,6 +106,9 @@ func (m *_Model) genTableElement(cols []ColumusInfo) (el []genstruct.GenElement)
 				tmp.AddTag(_tagGorm, "type:"+v.Type)
 				if !v.IsNull {
 					tmp.AddTag(_tagGorm, "not null")
+				}
+				if len(v.Default) > 0 {
+					tmp.AddTag(_tagGorm, "default:"+v.Default)
 				}
 			}
 

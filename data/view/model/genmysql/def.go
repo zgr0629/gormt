@@ -8,11 +8,12 @@ type keys struct {
 
 // genColumns show full columns
 type genColumns struct {
-	Field string `gorm:"column:Field"`
-	Type  string `gorm:"column:Type"`
-	Key   string `gorm:"column:Key"`
-	Desc  string `gorm:"column:Comment"`
-	Null  string `gorm:"column:Null"`
+	Field   string `gorm:"column:Field"`
+	Type    string `gorm:"column:Type"`
+	Key     string `gorm:"column:Key"`
+	Desc    string `gorm:"column:Comment"`
+	Null    string `gorm:"column:Null"`
+	Default string `gorm:"column:Default"`
 }
 
 //select table_schema,table_name,column_name,referenced_table_schema,referenced_table_name,referenced_column_name from INFORMATION_SCHEMA.KEY_COLUMN_USAGE
