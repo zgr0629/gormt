@@ -5,7 +5,7 @@ import (
 	"testing"
 
 	"github.com/jinzhu/gorm"
-	"github.com/xxjwxc/gormt/data/view/genfunc/model"
+	"github.com/zgr0629/gormt/data/view/genfunc/model"
 
 	_ "github.com/go-sql-driver/mysql"
 	"github.com/xxjwxc/public/mysqldb"

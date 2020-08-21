@@ -7,10 +7,10 @@ import (
 	"strings"
 	"text/template"
 
-	"github.com/xxjwxc/gormt/data/config"
-	"github.com/xxjwxc/gormt/data/view/cnf"
-	"github.com/xxjwxc/gormt/data/view/genfunc"
 	"github.com/xxjwxc/public/mybigcamel"
+	"github.com/zgr0629/gormt/data/config"
+	"github.com/zgr0629/gormt/data/view/cnf"
+	"github.com/zgr0629/gormt/data/view/genfunc"
 )
 
 // getCamelName Big Hump or Capital Letter.大驼峰或者首字母大写

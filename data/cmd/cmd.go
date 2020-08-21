@@ -7,9 +7,9 @@ import (
 
 	"github.com/xxjwxc/public/tools"
 
-	"github.com/xxjwxc/gormt/data/view/gtools"
+	"github.com/zgr0629/gormt/data/view/gtools"
 
-	"github.com/xxjwxc/gormt/data/config"
+	"github.com/zgr0629/gormt/data/config"
 
 	"github.com/spf13/cobra"
 	"gopkg.in/go-playground/validator.v9"
@@ -94,7 +94,7 @@ func initConfig() {
 		os.Exit(1)
 	} else {
 		fmt.Println("using config info:")
-		fmt.Println(tools.GetJSONStr(config.GetMysqlDbInfo()))
+		fmt.Println(tools.GetJSONStr(config.GetMysqlDbInfo(), false))
 	}
 }
 

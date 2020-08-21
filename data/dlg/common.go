@@ -4,10 +4,10 @@ import (
 	"os/exec"
 
 	"github.com/jroimartin/gocui"
-	"github.com/xxjwxc/gormt/data/view/model"
-	"github.com/xxjwxc/gormt/data/view/model/genmysql"
+	"github.com/zgr0629/gormt/data/view/model"
+	"github.com/zgr0629/gormt/data/view/model/genmysql"
 
-	"github.com/xxjwxc/gormt/data/config"
+	"github.com/zgr0629/gormt/data/config"
 
 	"github.com/xxjwxc/public/tools"
 )

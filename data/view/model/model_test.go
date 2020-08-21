@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/xxjwxc/gormt/data/config"
+	"github.com/zgr0629/gormt/data/config"
 )
 
 func TestTypeName(t *testing.T) {

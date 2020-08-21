@@ -8,7 +8,7 @@ import (
 
 	"github.com/xxjwxc/public/tools"
 
-	"github.com/xxjwxc/gormt/data/config"
+	"github.com/zgr0629/gormt/data/config"
 
 	"github.com/jroimartin/gocui"
 	"github.com/xxjwxc/public/myclipboard"

@@ -4,13 +4,13 @@ import (
 	"fmt"
 	"os/exec"
 
-	"github.com/xxjwxc/gormt/data/dlg"
-	"github.com/xxjwxc/gormt/data/view/model"
+	"github.com/zgr0629/gormt/data/dlg"
+	"github.com/zgr0629/gormt/data/view/model"
 
-	"github.com/xxjwxc/gormt/data/config"
+	"github.com/zgr0629/gormt/data/config"
 
-	"github.com/xxjwxc/gormt/data/view/model/genmysql"
 	"github.com/xxjwxc/public/tools"
+	"github.com/zgr0629/gormt/data/view/model/genmysql"
 )
 
 // Execute exe the cmd

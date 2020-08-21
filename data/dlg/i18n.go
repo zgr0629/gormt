@@ -2,8 +2,8 @@ package dlg
 
 import (
 	"github.com/nicksnyder/go-i18n/v2/i18n"
-	"github.com/xxjwxc/gormt/data/config"
 	"github.com/xxjwxc/public/myi18n"
+	"github.com/zgr0629/gormt/data/config"
 	"golang.org/x/text/language"
 )
 

@@ -3,9 +3,9 @@ package genmysql
 import (
 	"strings"
 
-	"github.com/xxjwxc/gormt/data/config"
+	"github.com/zgr0629/gormt/data/config"
 
-	"github.com/xxjwxc/gormt/data/view/model"
+	"github.com/zgr0629/gormt/data/view/model"
 )
 
 // filterModel filter.过滤 gorm.Model

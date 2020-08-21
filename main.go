@@ -1,6 +1,6 @@
 package main
 
-import "github.com/xxjwxc/gormt/data/cmd"
+import "github.com/zgr0629/gormt/data/cmd"
 
 func main() {
 	cmd.Execute()
